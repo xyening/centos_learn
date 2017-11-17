@@ -8,13 +8,7 @@ cd /usr/local
 sudo ln -s apache-maven-3.5.2 maven
 ```
 
-### 创建shell文件
-
-```
-vi /etc/profile.d/maven.sh
-```
-
-### 添加以下脚本到maven.sh
+### 设置环境变量
 
 ```
 export M3_HOME=/usr/local/maven
